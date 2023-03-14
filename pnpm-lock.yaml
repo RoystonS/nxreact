@@ -4,6 +4,7 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 15.8.6
   '@nrwl/js': 15.8.6
   '@nrwl/linter': 15.8.6
+  '@nrwl/react': ^15.8.6
   '@nrwl/vite': 15.8.6
   '@nrwl/workspace': 15.8.6
   '@typescript-eslint/eslint-plugin': ^5.36.1
@@ -26,6 +27,7 @@ devDependencies:
   '@nrwl/eslint-plugin-nx': 15.8.6_kwtpbmwnon2ol5lim7ndv5zw5y
   '@nrwl/js': 15.8.6_dy3bcy5rzsznsjo6teutqltnt4
   '@nrwl/linter': 15.8.6_dy3bcy5rzsznsjo6teutqltnt4
+  '@nrwl/react': 15.8.6_dy3bcy5rzsznsjo6teutqltnt4
   '@nrwl/vite': 15.8.6_fyose2dsbambwngmkgsxkznyfy
   '@nrwl/workspace': 15.8.6_xbutml5teg6536gsdu4z5mzgvm
   '@typescript-eslint/eslint-plugin': 5.54.1_pilslfxtzjhyqgmudmt6akm3b4
@@ -1863,6 +1865,27 @@ packages:
     dev: true
     optional: true
 
+  /@nrwl/react/15.8.6_dy3bcy5rzsznsjo6teutqltnt4:
+    resolution: {integrity: sha512-QrcjQbyFnmhE8yhQ8D5xsee+qfvOvQUW3AcZITtoH48rDJBZlgQ8pNDC6/WPtc+Gwkc7vbOn7sXkED8ZBqZb3Q==}
+    dependencies:
+      '@nrwl/devkit': 15.8.6_nx@15.8.6+typescript@4.9.5
+      '@nrwl/js': 15.8.6_dy3bcy5rzsznsjo6teutqltnt4
+      '@nrwl/linter': 15.8.6_dy3bcy5rzsznsjo6teutqltnt4
+      '@nrwl/workspace': 15.8.6_xbutml5teg6536gsdu4z5mzgvm
+      '@phenomnomnominal/tsquery': 4.1.1_typescript@4.9.5
+      chalk: 4.1.2
+      minimatch: 3.0.5
+    transitivePeerDependencies:
+      - '@swc-node/register'
+      - '@swc/core'
+      - debug
+      - eslint
+      - nx
+      - prettier
+      - supports-color
+      - typescript
+    dev: true
+
   /@nrwl/tao/15.8.6:
     resolution: {integrity: sha512-dY205cotLiKTV+5BrUlneZEOucDmXiJU4asj1G4vQCf8Nt7awwuLYOmgbsACS27gkopSVV+DPl1zmtkSJX8Cjg==}
     hasBin: true
@@ -3217,7 +3240,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.0.5
+      minimatch: 3.1.2
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
