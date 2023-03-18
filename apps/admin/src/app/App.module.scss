@@ -1,5 +1,15 @@
-/* Your styles goes here. */
-
 .main {
-  font-size: 2rem;
+  padding: 1rem;
+
+  @media (min-width: 800px) {
+    padding: 2rem;
+  }
+}
+
+.heading {
+  font-size: common.$h1size;
+}
+
+.numberInput {
+  width: 4rem;
 }
